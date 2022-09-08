@@ -3,15 +3,12 @@
 /**
 * main - Entry point
 * 
-* Description : prints the value in motto
+* Description : prints "Programming is like building a multilingual puzzle
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {    
-	char motto[] = "\"Programming is like building a multilingual puzzle";
-
-
-	puts(motto);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
