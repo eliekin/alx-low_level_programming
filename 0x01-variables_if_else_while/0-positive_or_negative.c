@@ -3,10 +3,11 @@
 #include <time.h>
 
 /**
-* main - entry point of the program 
+* main:  entry point of the program 
 *
 * Description: This program will assign a random number to the variable n each time it is executed. 
-* Complete the source code in order to print whether the number stored in the variable n is positive or negative.
+* 
+* then prints whether the number stored in the variable n is positive or negative.
 * 
 * return: always returns zero 
 */
@@ -20,7 +21,10 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else
+	else if (n==0)
+	{
+		printf("%d is zero\n", n);
+	}
 	{
 		printf("%d is positif\n", n);
 	}
