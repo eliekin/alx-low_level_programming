@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
+
 /**
 * main - entry point of the program 
 *
@@ -8,6 +9,7 @@
 *
 * Return: always returns zero
 */
+
 
 int main(void)
 {
