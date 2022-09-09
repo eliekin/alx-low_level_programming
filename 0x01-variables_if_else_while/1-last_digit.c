@@ -2,15 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 /**
  * main - determine if number is positive or negative
  *
- * Description: program will find the last digit of 
- * 
+ * Description: program will find the last digit of  
  * a random number and tell if it is positive or negative
  *
  * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
 	int n;
