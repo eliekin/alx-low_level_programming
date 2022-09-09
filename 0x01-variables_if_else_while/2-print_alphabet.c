@@ -4,17 +4,21 @@
 /**
 * main - entry point of the program 
 *
-* Description: prints the alphabet
+* Description: prints the letters of the alphabet
 *
 * Return: always returns zero
 */
 
 int main(void)
-{	
-	char c;
-	
+{
+	int i = 97;
 
-	for (c = 'A'; c <= 'Z'; c++)
-		putchar(tolower(c));
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar(10);
+
 	return (0);
 }
