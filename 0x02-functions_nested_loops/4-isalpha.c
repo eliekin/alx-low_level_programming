@@ -1,12 +1,13 @@
 #include "main.h"
-#include <ctype.c>
+#include <ctype.h>
+
 /**
-* _isalpha - 
-* 
-* Description: checks for alphabetic character
-*
-* Return: 1 or 0 depending on the parameter value
-*/
+ * _isalpha - checks for alphabetic character
+ * @c: c is an ascii character
+ *
+ * Return: 1 (if letter)
+ */
+
 int _isalpha(int c)
 {
 	int response;

@@ -1,15 +1,13 @@
 #include "main.h"
 #include <ctype.h>
-
 /**
  * _islower - checks for lowercase
  * @c: c is an ascii character
  *
- * Return: 1 if lowercase
+ * Return : 1 if lowercase otherwise 0
  */
-
 int _islower(int c)
-{	
+{
 	int response;
 
 	response = islower(c);
@@ -20,5 +18,5 @@ int _islower(int c)
 	else
 	{
 		return (0);
-	}	
+	}
 }
