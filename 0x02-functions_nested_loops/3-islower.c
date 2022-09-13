@@ -9,7 +9,7 @@
 int _islower(int c)
 {
 	int response;
-	
+
 	response = islower(c);
 	if (response > 0)
 	{
