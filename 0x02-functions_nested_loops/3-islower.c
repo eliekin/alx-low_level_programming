@@ -2,12 +2,12 @@
 #include <ctype.h>
 
 /**
-* _islower - checks if it is lower case
-* 
-* Description: checks if it is lower case or not
-*
-* Return: returns 1 or 0 depending on the value of c
-*/
+ * _islower - checks for lowercase
+ * @c: c is an ascii character
+ *
+ * Return: 1 if lowercase
+ */
+
 int _islower(int c)
 {	
 	int response;
