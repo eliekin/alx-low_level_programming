@@ -1,17 +1,18 @@
 #include "main.h"
 #include <ctype.c>
+
 /**
-* _isalpha - 
-* 
-* Description: checks for alphabetic character
-*
-* Return: 1 or 0 depending on the parameter value
-*/
-int _isalpha(int c)
+ * _isalpha - checks for alphabetic character
+ * @c: c is an ascii character
+ *
+ * Return: 1 (if letter)
+ */
+
+int _isalpha(int n)
 {
 	int response;
 
-	response = isalpha(c);
+	response = isalpha(n);
 	if (response > 0)
 	{
 		return (1);
