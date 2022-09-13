@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.c>
+#include <ctype.h>
 
 /**
  * _isalpha - checks for alphabetic character
@@ -8,11 +8,11 @@
  * Return: 1 (if letter)
  */
 
-int _isalpha(int n)
+int _isalpha(int c)
 {
 	int response;
 
-	response = isalpha(n);
+	response = isalpha(c);
 	if (response > 0)
 	{
 		return (1);
