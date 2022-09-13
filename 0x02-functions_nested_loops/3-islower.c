@@ -1,11 +1,12 @@
 #include "main.h"
 #include <ctype.h>
+
 /**
-* main
+* _islower - checks if it is lower case
 * 
-* Description:
+* Description: checks if it is lower case
 *
-*Return:
+*Return: 1 or 0 depending on c
 */
 int _islower(int c)
 {	
