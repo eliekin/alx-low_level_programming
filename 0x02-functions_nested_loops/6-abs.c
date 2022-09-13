@@ -6,8 +6,8 @@
  *
  * Return: integer
  */
-int _abs(int c)
+int _abs(int n)
 {
-	int num = _abs(c);
-	return (0);
+	int num = abs(n);
+	return (num);
 }
