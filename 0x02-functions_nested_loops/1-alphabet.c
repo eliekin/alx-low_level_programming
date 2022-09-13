@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - check the code
  *
  * Description: Prints the alphabet
  *
@@ -10,13 +10,13 @@
 
 void print_alphabet(void)
 {
+
 	char c;
 
-	for(c = 'a'; c <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
 
 	_putchar('\n');
-	return;
 }
