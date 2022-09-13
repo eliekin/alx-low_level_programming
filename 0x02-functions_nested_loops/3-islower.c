@@ -4,7 +4,7 @@
 /**
 * _islower - checks if it is lower case
 * 
-* Description: checks if it is lower case
+* Description: checks if it is lower case or not
 *
 * Return: returns 1 or 0 depending on the value of c
 */
