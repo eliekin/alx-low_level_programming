@@ -6,7 +6,7 @@
 * 
 * Description: checks if it is lower case
 *
-*Return: 1 or 0 depending on c
+* Return: returns 1 or 0 depending on the value of c
 */
 int _islower(int c)
 {	
