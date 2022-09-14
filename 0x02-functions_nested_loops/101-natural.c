@@ -2,7 +2,7 @@
 /**
 * main - entry point
 *
-* Description: computes and prints the sum 
+* Description: computes and prints the sum
 *
 * Return: always zero (success)
 */
@@ -17,9 +17,9 @@ int main(void)
 	{
 		if (num % 3 == 0 || num % 5 == 0)
 		{
-			sum += num; 	
+			sum+= num; 	
 		}
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
