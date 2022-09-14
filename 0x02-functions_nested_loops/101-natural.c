@@ -20,6 +20,6 @@ int main(void)
 			sum += num; 	
 		}
 	}
-	printf("%d", sum)
+	printf("%d", sum);
 	return (0);
 }
