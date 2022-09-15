@@ -13,10 +13,10 @@ int main(void)
 	long int num2;
 	long int nextNum;
 
-	times = 0;
+	times = 1;
 	num1 = 0;
 	num2 = 1;
-	while (times < 49)
+	while (times < 51)
 	{
 		nextNum = num1 + num2;
 		printf("%li, ", nextNum);
