@@ -17,9 +17,9 @@ int main(void)
 	{
 		if (num % 3 == 0 || num % 5 == 0)
 		{
-			sum += num; 	
+			sum += num;
 		}
 	}
-	printf("%d ", sum);
+	printf("%d\n", sum);
 	return (0);
 }
