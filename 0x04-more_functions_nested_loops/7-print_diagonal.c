@@ -1,10 +1,12 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
-* print_diagonal - prints \
-* @n: is the parameter
-*
-* Return: returns nothing
-*/
+ * print_diagonal - draws diagonal line
+ * @n: number of times
+ *
+ * Return: void
+ */
+
 void print_diagonal(int n)
 {
 	int line = 0;
