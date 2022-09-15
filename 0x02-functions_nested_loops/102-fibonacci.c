@@ -19,14 +19,7 @@ int main(void)
 	while (times < 49)
 	{
 		nextNum = num1 + num2;
-		if (times == 48)
-		{
-			printf("%li", nextNum);
-		}
-		else
-		{
 		printf("%li, ", nextNum);
-		}
 		num1 = num2;
 		num2 = nextNum;
 		times++;
