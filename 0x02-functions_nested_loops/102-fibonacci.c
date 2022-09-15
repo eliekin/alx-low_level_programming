@@ -21,7 +21,7 @@ int main(void)
 		nextNum = num1 + num2;
 		if (times == 49)
 		{
-			printf("%li", nextNum);
+			printf("%li ", nextNum);
 		}
 		else
 		{
