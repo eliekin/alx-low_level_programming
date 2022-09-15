@@ -3,7 +3,7 @@
 * print_diagonal - prints \
 * @n: is the parameter
 *
-* Return: always zero
+* Return: returns nothing
 */
 void print_diagonal(int n)
 {
