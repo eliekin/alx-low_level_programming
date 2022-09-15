@@ -1,12 +1,11 @@
 #include "main.h"
 /**
-* print_numbers- prints numbers
+* print_numbers - prints numbers
 *
 * Description: prints numbers 0 to 9
 *
-* Return : always zero
+* Return: returns nothing.
 */
-
 void print_numbers(void)
 {
 	int num;
@@ -16,4 +15,4 @@ void print_numbers(void)
 		_putchar(num);
 	}
 	_putchar('\n');
-} 
+}
