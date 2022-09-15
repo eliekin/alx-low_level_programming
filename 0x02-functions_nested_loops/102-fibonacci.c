@@ -19,7 +19,7 @@ int main(void)
 	while (times < 49)
 	{
 		nextNum = num1 + num2;
-		printf("%d, ", nextNum);
+		printf("%li, ", nextNum);
 		num1 = num2;
 		num2 = nextNum;
 		times++;
