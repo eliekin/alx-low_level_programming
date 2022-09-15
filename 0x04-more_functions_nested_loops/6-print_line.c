@@ -11,10 +11,17 @@ void print_line(int n)
 	int initialValue;
 
 	initialValue = 0;
-	while (initialValue <= n)
+	if (n == 0 || n < 0)
 	{
-		_putchar('_');
-		initialValue++;
+		_putchar('\n');
+	}
+	else
+	{
+		while (initialValue < n + 1)
+		{
+			_putchar('_');
+			initialValue++;
+		}
 	}
 	_putchar('\n');
 }
