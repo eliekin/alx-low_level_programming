@@ -13,12 +13,12 @@ void more_numbers(void)
 	int num;
 
 	times = 0;
-	num = 0;
 	while (times < 9)
 	{
 		for (num = 0; num <= 14; num++)
 		{
 			_putchar(num);
+			_putchar('\n');
 		}
 		times++;
 	}
