@@ -9,9 +9,9 @@
 int main(void)
 {
 	int times;
-	int num1;
-	int num2;
-	int nextNum;
+	long int num1;
+	long int num2;
+	long int nextNum;
 
 	times = 0;
 	num1 = 0;
@@ -19,9 +19,16 @@ int main(void)
 	while (times <= 49)
 	{
 		nextNum = num1 + num2;
-		printf("%d, ", nextNum);
+		if (times == 49)
+		{
+			printf("%li ", nextNum);
+		}
+		else
+		{
+			printf("%li, ", nextNum);
+		}
 		num1 = num2;
-		num2 = nextNum; 
+		num2 = nextNum;
 		times++;
 	}
 	return (0);

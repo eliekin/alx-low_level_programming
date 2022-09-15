@@ -9,10 +9,10 @@
 int main(void)
 {
 	int times;
-	int num1;
-	int num2;
-	int nextNum;
-	int sum;
+	long int num1;
+	long int num2;
+	long int nextNum;
+	long int sum;
 
 	num1 = 0;
 	num2 = 1;
@@ -27,6 +27,6 @@ int main(void)
 			sum += nextNum;
 		}
 	}
-	printf("%d\n", sum);
+	printf("%li\n", sum);
 	return (0);
 }
