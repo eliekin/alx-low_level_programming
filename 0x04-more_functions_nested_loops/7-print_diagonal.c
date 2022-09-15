@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
-* print_diagonal - prints \
-* @n: is the parameter
-*
-* Return: always zero
-*/
+ * print_diagonal - draws diagonal line
+ * @n: number of times
+ *
+ * Return: void
+ */
+
 void print_diagonal(int n)
 {
 	int line = 0;
