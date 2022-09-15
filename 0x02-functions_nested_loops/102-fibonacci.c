@@ -16,7 +16,7 @@ int main(void)
 	times = 1;
 	num1 = 0;
 	num2 = 1;
-	while (times < 50)
+	while (times <= 50)
 	{
 		nextNum = num1 + num2;
 		printf("%li, ", nextNum);
