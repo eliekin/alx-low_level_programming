@@ -11,8 +11,8 @@ void print_rev(char *s)
 	int lengthChar, letterPointer;
 
 	lengthChar = strlen(s);
-	for (letterPointer = lengthChar - 1; letterPointer <= 0; letterPointer--)
-	{ 
+	for (letterPointer = lengthChar - 1; letterPointer >= 0; letterPointer--)
+	{
 		_putchar(s[letterPointer]);
 	}
 	_putchar('\n');
