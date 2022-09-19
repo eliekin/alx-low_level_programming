@@ -1,8 +1,8 @@
 #include <string.h>
 #include "main.h"
 /**
-* _strlen - prints the length
-* @n: parameter
+* _strlen - prints the length of s
+* @s: parameter
 *
 * Return: integer
 */
