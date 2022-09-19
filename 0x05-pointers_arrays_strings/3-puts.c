@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _puts: prints to stdout
+* _puts - prints to stdout
 * @str: parameter
 *
 * Return: void
