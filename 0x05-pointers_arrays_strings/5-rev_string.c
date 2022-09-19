@@ -11,7 +11,6 @@ void rev_string(char *s)
 	int lengthChar, letterPointer;
 
 	lengthChar = strlen(s);
-	_putchar(s);
 	for (letterPointer = lengthChar - 1; letterPointer >= 0; letterPointer--)
 	{
 		_putchar(s[letterPointer]);
