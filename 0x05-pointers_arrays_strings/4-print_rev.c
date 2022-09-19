@@ -8,5 +8,5 @@
 */
 void print_rev(char *s)
 {
-	printf("%c\n", strrev(s));
+	_putchar(strrev(s));
 }
