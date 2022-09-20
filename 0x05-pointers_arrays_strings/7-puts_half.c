@@ -1,19 +1,20 @@
 #include "main.h"
 #include <string.h>
 /**
-* print_rev - prints reverse s
-* @s: parameter
+* puts_half - prints reverse s
+* @str: parameter
 *
 * Return: void
 */
-void print_rev(char *s)
+void puts_half(char *str)
 {
-	int lengthChar, letterPointer;
+	int lengthChar, letterPointer, num;
 
-	lengthChar = strlen(s);
-	for (letterPointer = (lengthChar - 1) / 2; letterPointer >= 0; letterPointer--)
+	lengthChar = strlen(str);
+	num = (lengthChar - 1) / 2;
+	for (letterPointer = num; letterPointer <= lengthChar; letterPointer++)
 	{
-		_putchar(s[letterPointer]);
+		_putchar(str[letterPointer]);
 	}
 	_putchar('\n');
 }
