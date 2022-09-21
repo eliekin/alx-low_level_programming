@@ -8,13 +8,5 @@
 */
 char *_strcat(char *dest, char *strc)
 {
-	int i;
-
-	i = 0;
-	while (strc[i] != '\0')
-	{
-		i++;
-	}
-	return (strcat(dest, strc[i]));
-	
+	return (strcat(dest, strc));
 }
