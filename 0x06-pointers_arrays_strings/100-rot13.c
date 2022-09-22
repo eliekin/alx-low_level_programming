@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
 * rot13 - encodes using rot13
 * @s: parameter
@@ -7,11 +7,15 @@
 */
 char *rot13(char *)
 {
-	int n, length, key;
+	int n, length,i, key;
 
 	key = 13;
-	length = strlen(s);
-	for (n = 0; n < length; n++)
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	for (n = 0; n <= i; n++)
 	{
 		int currentLetter;
 		char cipher;
