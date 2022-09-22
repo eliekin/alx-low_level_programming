@@ -5,7 +5,7 @@
 * @s: parameter
 * Return: character
 */
-char *rot13(char *s)
+char *rot13(char *)
 {
 	int n, length, key;
 
