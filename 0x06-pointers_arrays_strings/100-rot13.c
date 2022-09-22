@@ -11,7 +11,7 @@ char *rot13(char *s)
 
 	key = 13;
 	length = strlen(s);
-	for (n = 0, n < length; n++)
+	for (n = 0; n < length; n++)
 	{
 		int currentLetter;
 		char cipher;
@@ -20,10 +20,11 @@ char *rot13(char *s)
 		cipher = currentLetter + key;
 		if ((currentLetter - 'a') + key > 26)
 		{
-			key = (currentLetter - 'a') + key) % 26;
+			key = ((currentLetter - 'a') + key) % 26;
 			cipher = 'a' + key;
 		}
+		s[n] += key;
 		key = 13;
 	}
-	return (s[cipher]);
+	return (s);
 }
