@@ -7,7 +7,7 @@
 */
 char *rot13(char *)
 {
-	int n, length,i, key;
+	int n, length, i, key;
 
 	key = 13;
 	i = 0;
