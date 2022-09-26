@@ -10,9 +10,10 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int length;
+	int i;
 
-	s = strspn(s, accept);
-	length = strlen(s);
+	i = 0;
+	while(s[i] && strchr(accept, s[i]))
+		i++;
 	return (length);
 }
