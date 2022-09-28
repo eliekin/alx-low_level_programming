@@ -12,7 +12,7 @@ void _puts_recursion(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		puts(s[i]);
+		printf("%c", s[i]);
 	}
-	puts('\n');
+	puts(10);
 }
