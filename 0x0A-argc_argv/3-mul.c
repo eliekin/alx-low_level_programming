@@ -8,7 +8,7 @@
 */
 int main(int argc, char *argv[])
 {
-	int result;
+	long int result;
 	int args = argc - 1;
 
 	if (args == 0)
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	if (args > 1)
 	{
 		result = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d", result);
+		printf("%ld", result);
 		printf("\n");
 	}
 	return (0);
