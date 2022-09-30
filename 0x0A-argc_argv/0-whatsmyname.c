@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * main - entry point
-* Description: prints the program name
+* @argc: parameter
+* @argv: parameter
 * Return: int
 */
 int main(int argc, char *argv[])
