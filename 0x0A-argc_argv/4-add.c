@@ -16,9 +16,9 @@ int main(int argc, char *argv[])
 	{
 		printf("%d\n", argc);
 	}
-	for (i = 1; i <= argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-		if (argv[i] >= 'a' || argv[i] <= 'z')
+		if (argv[i] >= 'a' && argv[i] <= 'z')
 		{
 			printf("Error\n");
 			return (1);
