@@ -8,10 +8,9 @@
 */
 int main(int argc, char *argv[])
 {
-	long int result;
-	int args = argc;
+	int result;
 
-	if (args <= 2 || args > 3)
+	if (argc <= 2 || argc > 3)
 	{
 		printf("Error");
 		printf("\n");
