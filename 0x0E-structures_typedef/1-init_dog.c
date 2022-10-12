@@ -7,6 +7,8 @@
  * @name: doggo's name
  * @age: doggo's age
  * @owner: doggo's owner
+ * Description:  initialize a variable of type struct dog
+ * Return: void
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
